@@ -1,0 +1,13 @@
+
+server:
+  port: 8088
+spring:
+  application:
+    name: wallpaper-api
+
+wallpaper-api:
+  file-directory: temp/
+
+springdoc:
+  swagger-ui:
+    enabled: true
